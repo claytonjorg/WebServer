@@ -17,3 +17,4 @@ The following plugins are used to send data from the gameserver to a SQL databas
 Overall design was created using HTML and CSS. Then simply using the SQL database, the data is then displayed.
 
 ### Sample Pictures
+![](https://github.com/claytonjorg/ckl/blob/master/Sample_Images/servers.png)
