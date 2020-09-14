@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #ECF0F0;
+}
+
+/*======================================================================*/
+
+.header {
+  padding: 0px;
+  text-align: center;
+  color: white;
+  height: 65px;
+  background: linear-gradient(to left, #4D94E0, rgba(40, 223, 231, 1));
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #1E90FF;
+}
+
+.header a {
+	word-spacing: 8px;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	float: right;
+	padding-right: 2.3%;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	transition: 0.5s;
+}
+
+.header a:hover {
+	color: #DCDCDC;
+}
+
+.profilebtn {
+	border: none;
+	color: white; /*text color*/
+	font: inherit;
+	height: 65px;
+	width: 120px;
+	padding: 0px;
+	display: block;
+	float: right;
+	background: inherit;
+	transition: 0.3s;
+	outline:none;
+}
+
+.profilebtn:hover {
+	background-color: #4874a3;
+	color: #DCDCDC;
+}
+
+/*======================================================================*/
+
+/*======================================================================*/
+
+.main {
+	padding: 0px;
+	text-align: center;
+	background: white;
+	min-height: 500px;
+}
+
+.main-section-stats {
+	min-height: 500px;
+	background: #ECF0F0;
+}
+
+/*===================== Stats ================================*/
+
+.main-stats-row {
+	padding-top: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 0px;
+}
+
+.main-stats-column {
+	float: left;
+	width: 100%;
+	min-height: 500px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+/*===================== Navbar ================================*/
+
+.stats_navbar_row {
+	min-height: 500px;
+}
+
+.stats_navbar_col {
+	float: left;
+	width: 20%;
+	min-height: 500px;
+	overflow: hidden;
+}
+
+.stats_navbar_col a {
+	 display: block;
+	 width: 100%;
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 text-align: left;
+	 padding-left: 10%;
+	 font-size: 13px;
+	 word-spacing: 25px;
+	 text-decoration: none;
+	 color: #696969;
+}
+
+.stats_navbar_col a.active {
+	color: #1E90FF;
+	background-color: #DCDCDC;
+}
+
+.stats_navbar_col a:hover {
+	 background: #F5F5F5;
+}
+
+/*===================== Title-navbnar ================================*/
+
+.title-navbar {
+	margin-top: 25px;
+	background: #DCDCDC;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-info {
+	margin-top: 25px;
+	background: white;
+	height: 950px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-test {
+	margin-top: 25px;
+	height: 0px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-info a {
+	text-align: center;
+	color: white;
+	width: 100%;
+	padding: 0px;
+	word-spacing: 1px;
+}
+
+.logo {
+	text-align:center; 
+	position: absolute; 
+	font-size: 18px; 
+	top: 320px; 
+	color: white; 
+	z-index: 99;
+	width: 15%;
+	height: 100px;
+	left: 52%;
+	background: #DCDCDC;
+	border-radius: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.29);
+}
+
+/*======================================================================*/
+
+.search-container {
+  display:flex;
+  font-size:14px;
+  margin:25px 0px;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.search-input {
+  border:1px solid #ddd;
+  border-radius:5px 0 0 5px;
+  padding:10px;
+  border-right:none;
+  width:100%;
+  outline: none;
+}
+
+.search-btn {
+  border:1px solid #ddd;
+  background-color:#FFFFFF !important;
+  border-radius:0 5px 5px 0;
+  border-left:none;
+  background-image:none;
+  box-shadow:none;
+  color:#919693;
+  width: 50px;
+}
+
+
+.title-info h2 {
+	font-size: 20px;
+	text-align: left;
+	font-weight: 300;
+}
+
+.title-info p {
+	margin-top: 17px;
+	line-height: 0px;
+	font-size: 13px;
+	margin-top: 18px;
+	word-spacing: 10px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+.servers_row {
+	padding-top: 0px;
+	padding-right: 2%;
+	padding-left: 2%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.servers_col {
+	float: left;
+	width: 20%;
+	min-height: 40px;
+	max-height: 50px;
+	height: 35px;
+	border-right: 1px solid #dadfe0;
+	border-left: 1px solid #dadfe0;
+	border-top: 1px solid #dadfe0;
+	border-bottom: 1px solid #dadfe0;
+	overflow: hidden;
+}
+
+.btn-connect, .btn-connect:focus {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	display: block;
+	padding: 2px 2px;
+	font-size: 12px;
+	background-color: rgba(40, 223, 231, 1);
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	background-image: linear-gradient(to right, #4D94E0, rgba(40, 223, 231, 1));
+	transition: 0.5s;
+}
+
+.btn-connect:hover {
+	background-color: #4D94E0;
+	background-image: linear-gradient(to right, rgba(77, 148, 224, 1), rgba(40, 223, 231, 0.5));
+}
+
+.title-info a.page-item {
+	color: white;
+	background: #4D94E0;
+	outline: none;
+	border: none;
+	width: 30px;
+	padding: 5px;
+	height: 30px;
+	display: inline-block;
+	transition: 0.5s;
+	float: left;
+}
+
+.title-info a.page-item:hover {
+	color: white;
+	background: #2d6096;
+}
+
+.title-info a.page-item.active {
+	color: white;
+	background: #2d6096;
+}
+
+.title-info a.page-item.disabled {
+	color: white;
+}
+
+.title-info a.back-btn {
+	color: white;
+	background: #4D94E0;
+	outline: none;
+	border: none;
+	width: 200px;
+	padding: 5px;
+	height: 30px;
+	display: inline-block;
+	transition: 0.5s;
+	float: left;
+	word-spacing: 1px;
+}
+
+.title-info a.back-btn:hover {
+	color: white;
+	background: #2d6096;
+}
+
+/*======================================================================*/
+
+/* Footer */
+.footer {
+  display: inline;
+  padding: 0px;
+  color: black;
+  text-align: center;
+  background: #ECF0F0;
+  height: 75px;
+}
+
+.footer p {
+	color: black;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #4D94E0;
+	transition: 0.3s;
+}
+
+.footer a:hover {
+	color: #007993;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*======================================================================*/

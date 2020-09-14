@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #ECF0F0;
+}
+
+/*======================================================================*/
+
+.header {
+  padding: 0px;
+  text-align: center;
+  color: white;
+  height: 65px;
+  background: linear-gradient(to left, #4D94E0, rgba(40, 223, 231, 1));
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 30px;
+  margin-top: 10px;
+  color: #1E90FF;
+}
+
+.header a {
+	word-spacing: 8px;
+	text-decoration: none;
+	font-size: 20px;
+	text-align: center;
+	float: right;
+	padding-right: 2.3%;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+	transition: 0.5s;
+}
+
+.header a:hover {
+	color: #DCDCDC;
+}
+
+.profilebtn {
+	border: none;
+	color: white; /*text color*/
+	font: inherit;
+	height: 65px;
+	width: 120px;
+	padding: 0px;
+	display: block;
+	float: right;
+	background: inherit;
+	transition: 0.3s;
+	outline:none;
+}
+
+.profilebtn:hover {
+	background-color: #4874a3;
+	color: #DCDCDC;
+}
+/*======================================================================*/
+
+/*======================================================================*/
+
+.main {
+	padding: 0px;
+	text-align: center;
+	background: white;
+	min-height: 500px;
+}
+
+.main-section-stats {
+	min-height: 500px;
+	background: #ECF0F0;
+}
+
+/*===================== Stats ================================*/
+
+.main-stats-row {
+	padding-top: 0px;
+	padding-left: 0%;
+	padding-right: 0%;
+	padding-bottom: 0px;
+}
+
+.main-stats-column {
+	float: left;
+	width: 100%;
+	min-height: 500px;
+	background: #FFFFFF;
+	overflow: hidden;
+}
+
+/*===================== Navbar ================================*/
+
+.stats_navbar_row {
+	min-height: 500px;
+}
+
+.stats_navbar_col {
+	float: left;
+	width: 20%;
+	min-height: 500px;
+	overflow: hidden;
+}
+
+.stats_navbar_col a {
+	 display: block;
+	 width: 100%;
+	 padding-top: 15px;
+	 padding-bottom: 15px;
+	 text-align: left;
+	 padding-left: 10%;
+	 font-size: 13px;
+	 word-spacing: 25px;
+	 text-decoration: none;
+	 color: #696969;
+}
+
+.stats_navbar_col a.active {
+	color: #1E90FF;
+	background-color: #DCDCDC;
+}
+
+.stats_navbar_col a:hover {
+	 background: #F5F5F5;
+}
+
+/*===================== Title-navbnar ================================*/
+
+.title-navbar {
+	margin-top: 25px;
+	background: #DCDCDC;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-login {
+	margin-top: 25px;
+	background: white;
+	height: 600px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-test {
+	margin-top: 25px;
+	height: 50px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	border-radius: 5px;
+}
+
+.title-login a {
+	text-align: center;
+	padding-left: 0%;
+}
+
+/*======================================================================*/
+
+/* Footer */
+.footer {
+  display: inline;
+  padding: 0px;
+  color: black;
+  text-align: center;
+  background: #ECF0F0;
+  height: 75px;
+}
+
+.footer p {
+	color: black;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #4D94E0;
+	transition: 0.3s;
+}
+
+.footer a:hover {
+	color: #007993;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+/*======================================================================*/
