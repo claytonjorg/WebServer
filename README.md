@@ -18,3 +18,6 @@ Overall design was created using HTML and CSS. Then simply using the SQL databas
 
 ### Sample Pictures
 ![](https://github.com/claytonjorg/ckl/blob/master/Sample_Images/servers.png)
+![](https://github.com/claytonjorg/ckl/blob/master/Sample_Images/scoreboards.png)
+![](https://github.com/claytonjorg/ckl/blob/master/Sample_Images/scoreboards_expanded.png)
+![](https://github.com/claytonjorg/ckl/blob/master/Sample_Images/profile.png)
